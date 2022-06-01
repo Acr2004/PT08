@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <script>
+      var max = 0
+      var num
+      num = prompt("Digite um valor, ou 0 para terminar:")
+
+      while (num != 0) {
+        if (parseFloat(num) > max) {
+        max = num
+        num = prompt("Digite um valor, ou 0 para terminar:")
+		    }
+      }
+      document.write("<P> Máximo = " + max)
+    </script>
+    
+    <title>Script 6</title>
+  </head>
+  
+  <body>
+  </body>
+</html>
